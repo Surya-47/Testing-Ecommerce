@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>25/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 11 06:58:37 UTC 2024</td>
+</tr>
+<tr><td>Total time:</td><td>256 seconds (256408 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.HomePageTestCases.testAddToCart()'><b>testAddToCart</b><br>Test class: testCases.HomePageTestCases</td>
+<td></td>
+<td>20</td>
+<td>testCases.HomePageTestCases@ba54932</td></tr>
+<tr>
+<td title='testCases.HomePageTestCases.testSecondProduct()'><b>testSecondProduct</b><br>Test class: testCases.HomePageTestCases</td>
+<td></td>
+<td>9</td>
+<td>testCases.HomePageTestCases@ba54932</td></tr>
+<tr>
+<td title='testCases.HomePageTestCases.testNavbarCoordinates()'><b>testNavbarCoordinates</b><br>Test class: testCases.HomePageTestCases</td>
+<td></td>
+<td>19</td>
+<td>testCases.HomePageTestCases@ba54932</td></tr>
+<tr>
+<td title='testCases.AccountSignInTestCases.testCreateNewUserRedirection()'><b>testCreateNewUserRedirection</b><br>Test class: testCases.AccountSignInTestCases<br>Parameters: chrome</td>
+<td></td>
+<td>3</td>
+<td>testCases.AccountSignInTestCases@574b560f</td></tr>
+<tr>
+<td title='testCases.HomePageTestCases.testExploreLaptopsPage()'><b>testExploreLaptopsPage</b><br>Test class: testCases.HomePageTestCases</td>
+<td></td>
+<td>2</td>
+<td>testCases.HomePageTestCases@ba54932</td></tr>
+<tr>
+<td title='testCases.HomePageTestCases.testFirstProduct()'><b>testFirstProduct</b><br>Test class: testCases.HomePageTestCases</td>
+<td></td>
+<td>9</td>
+<td>testCases.HomePageTestCases@ba54932</td></tr>
+<tr>
+<td title='testCases.OurProductsTestCases.AdvantageFilteredProduct()'><b>AdvantageFilteredProduct</b><br>Test class: testCases.OurProductsTestCases</td>
+<td></td>
+<td>11</td>
+<td>testCases.OurProductsTestCases@2a266d09</td></tr>
+<tr>
+<td title='testCases.AccountSignInTestCases.testSignInWithFacebook()'><b>testSignInWithFacebook</b><br>Test class: testCases.AccountSignInTestCases<br>Parameters: chrome</td>
+<td></td>
+<td>4</td>
+<td>testCases.AccountSignInTestCases@574b560f</td></tr>
+<tr>
+<td title='testCases.ContactSearchTestCases.SearchDefect()'><b>SearchDefect</b><br>Test class: testCases.ContactSearchTestCases</td>
+<td></td>
+<td>4</td>
+<td>testCases.ContactSearchTestCases@757acd7b</td></tr>
+<tr>
+<td title='testCases.AccountSignInTestCases.testCreateNewUser()'><b>testCreateNewUser</b><br>Test class: testCases.AccountSignInTestCases<br>Parameters: chrome</td>
+<td></td>
+<td>33</td>
+<td>testCases.AccountSignInTestCases@574b560f</td></tr>
+<tr>
+<td title='testCases.ContactSearchTestCases.ContactUsCheck()'><b>ContactUsCheck</b><br>Test class: testCases.ContactSearchTestCases</td>
+<td></td>
+<td>19</td>
+<td>testCases.ContactSearchTestCases@757acd7b</td></tr>
+<tr>
+<td title='testCases.OurProductsTestCases.AdvantagePlayVideoAndVerifyPlayback()'><b>AdvantagePlayVideoAndVerifyPlayback</b><br>Test class: testCases.OurProductsTestCases</td>
+<td></td>
+<td>12</td>
+<td>testCases.OurProductsTestCases@2a266d09</td></tr>
+<tr>
+<td title='testCases.AccountSignInTestCases.testUserLinkRedirection()'><b>testUserLinkRedirection</b><br>Test class: testCases.AccountSignInTestCases<br>Parameters: chrome</td>
+<td></td>
+<td>3</td>
+<td>testCases.AccountSignInTestCases@574b560f</td></tr>
+<tr>
+<td title='testCases.HomePageTestCases.testThirdProduct()'><b>testThirdProduct</b><br>Test class: testCases.HomePageTestCases</td>
+<td></td>
+<td>5</td>
+<td>testCases.HomePageTestCases@ba54932</td></tr>
+<tr>
+<td title='testCases.ContactSearchTestCases.IconsCheck()'><b>IconsCheck</b><br>Test class: testCases.ContactSearchTestCases</td>
+<td></td>
+<td>8</td>
+<td>testCases.ContactSearchTestCases@757acd7b</td></tr>
+<tr>
+<td title='testCases.AboutFooterTestCases.testHelpVersionNavigation()'><b>testHelpVersionNavigation</b><br>Test class: testCases.AboutFooterTestCases</td>
+<td></td>
+<td>2</td>
+<td>testCases.AboutFooterTestCases@36b4fe2a</td></tr>
+<tr>
+<td title='testCases.HomePageTestCases.testExploreTabletsPage()'><b>testExploreTabletsPage</b><br>Test class: testCases.HomePageTestCases</td>
+<td></td>
+<td>4</td>
+<td>testCases.HomePageTestCases@ba54932</td></tr>
+<tr>
+<td title='testCases.ContactSearchTestCases.SearchCheck()'><b>SearchCheck</b><br>Test class: testCases.ContactSearchTestCases</td>
+<td></td>
+<td>19</td>
+<td>testCases.ContactSearchTestCases@757acd7b</td></tr>
+<tr>
+<td title='testCases.AboutFooterTestCases.testFacebookLink()'><b>testFacebookLink</b><br>Test class: testCases.AboutFooterTestCases</td>
+<td></td>
+<td>7</td>
+<td>testCases.AboutFooterTestCases@36b4fe2a</td></tr>
+<tr>
+<td title='testCases.OurProductsTestCases.AdvantageAddToCart()'><b>AdvantageAddToCart</b><br>Test class: testCases.OurProductsTestCases</td>
+<td></td>
+<td>13</td>
+<td>testCases.OurProductsTestCases@2a266d09</td></tr>
+<tr>
+<td title='testCases.AboutFooterTestCases.testHelpManagementNavigation()'><b>testHelpManagementNavigation</b><br>Test class: testCases.AboutFooterTestCases</td>
+<td></td>
+<td>0</td>
+<td>testCases.AboutFooterTestCases@36b4fe2a</td></tr>
+<tr>
+<td title='testCases.AccountSignInTestCases.testloginandlogout()'><b>testloginandlogout</b><br>Test class: testCases.AccountSignInTestCases<br>Parameters: chrome</td>
+<td></td>
+<td>14</td>
+<td>testCases.AccountSignInTestCases@574b560f</td></tr>
+<tr>
+<td title='testCases.AboutFooterTestCases.testHelpAboutNavigation()'><b>testHelpAboutNavigation</b><br>Test class: testCases.AboutFooterTestCases</td>
+<td></td>
+<td>6</td>
+<td>testCases.AboutFooterTestCases@36b4fe2a</td></tr>
+<tr>
+<td title='testCases.OurProductsTestCases.AdvantageHoverAndPrintReview()'><b>AdvantageHoverAndPrintReview</b><br>Test class: testCases.OurProductsTestCases</td>
+<td></td>
+<td>7</td>
+<td>testCases.OurProductsTestCases@2a266d09</td></tr>
+<tr>
+<td title='testCases.HomePageTestCases.testExploreSpeakersPage()'><b>testExploreSpeakersPage</b><br>Test class: testCases.HomePageTestCases</td>
+<td></td>
+<td>3</td>
+<td>testCases.HomePageTestCases@ba54932</td></tr>
+</table><p>
+</body>
+</html>

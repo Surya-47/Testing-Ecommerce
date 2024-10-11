@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-11T06:58:37 UTC" name="Suite" finished-at="2024-10-11T07:02:53 UTC" duration-ms="256408">
+    <groups>
+    </groups>
+    <test started-at="2024-10-11T06:58:37 UTC" name="Test" finished-at="2024-10-11T07:02:53 UTC" duration-ms="256408">
+      <class name="testCases.ContactSearchTestCases">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.ContactSearchTestCases@757acd7b]" started-at="2024-10-11T06:59:24 UTC" name="setup" finished-at="2024-10-11T06:59:25 UTC" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="IconsCheck()[pri:0, instance:testCases.ContactSearchTestCases@757acd7b]" started-at="2024-10-11T06:59:25 UTC" name="IconsCheck" finished-at="2024-10-11T06:59:33 UTC" duration-ms="8232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IconsCheck -->
+        <test-method signature="ContactUsCheck()[pri:1, instance:testCases.ContactSearchTestCases@757acd7b]" started-at="2024-10-11T06:59:33 UTC" name="ContactUsCheck" finished-at="2024-10-11T06:59:53 UTC" duration-ms="19325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsCheck -->
+        <test-method signature="SearchDefect()[pri:2, instance:testCases.ContactSearchTestCases@757acd7b]" started-at="2024-10-11T06:59:53 UTC" name="SearchDefect" finished-at="2024-10-11T06:59:57 UTC" duration-ms="4977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchDefect -->
+        <test-method signature="SearchCheck()[pri:3, instance:testCases.ContactSearchTestCases@757acd7b]" started-at="2024-10-11T06:59:57 UTC" name="SearchCheck" finished-at="2024-10-11T07:00:17 UTC" duration-ms="19042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCheck -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.ContactSearchTestCases@757acd7b]" started-at="2024-10-11T07:00:17 UTC" name="teardown" finished-at="2024-10-11T07:00:17 UTC" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ContactSearchTestCases -->
+      <class name="testCases.AboutFooterTestCases">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:17 UTC" name="setup" finished-at="2024-10-11T07:00:17 UTC" duration-ms="740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:17 UTC" name="navigateToHomePage" finished-at="2024-10-11T07:00:19 UTC" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="testFacebookLink()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:19 UTC" name="testFacebookLink" finished-at="2024-10-11T07:00:26 UTC" duration-ms="7431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookLink -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:26 UTC" name="afterMethod" finished-at="2024-10-11T07:00:26 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:26 UTC" name="navigateToHomePage" finished-at="2024-10-11T07:00:27 UTC" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="testHelpManagementNavigation()[pri:1, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:27 UTC" name="testHelpManagementNavigation" finished-at="2024-10-11T07:00:27 UTC" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHelpManagementNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:27 UTC" name="afterMethod" finished-at="2024-10-11T07:00:27 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:27 UTC" name="navigateToHomePage" finished-at="2024-10-11T07:00:28 UTC" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="testHelpVersionNavigation()[pri:2, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:28 UTC" name="testHelpVersionNavigation" finished-at="2024-10-11T07:00:30 UTC" duration-ms="2667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHelpVersionNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:30 UTC" name="afterMethod" finished-at="2024-10-11T07:00:30 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:30 UTC" name="navigateToHomePage" finished-at="2024-10-11T07:00:30 UTC" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method signature="testHelpAboutNavigation()[pri:3, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:30 UTC" name="testHelpAboutNavigation" finished-at="2024-10-11T07:00:37 UTC" duration-ms="6569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHelpAboutNavigation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:37 UTC" name="afterMethod" finished-at="2024-10-11T07:00:37 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AboutFooterTestCases@36b4fe2a]" started-at="2024-10-11T07:00:37 UTC" name="tearDown" finished-at="2024-10-11T07:00:37 UTC" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AboutFooterTestCases -->
+      <class name="testCases.AccountSignInTestCases">
+        <test-method signature="testUserLinkRedirection(java.lang.String)[pri:1, instance:testCases.AccountSignInTestCases@574b560f]" started-at="2024-10-11T07:00:37 UTC" name="testUserLinkRedirection" finished-at="2024-10-11T07:00:40 UTC" duration-ms="3314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLinkRedirection -->
+        <test-method signature="testloginandlogout(java.lang.String)[pri:2, instance:testCases.AccountSignInTestCases@574b560f]" started-at="2024-10-11T07:00:40 UTC" name="testloginandlogout" finished-at="2024-10-11T07:00:54 UTC" duration-ms="14004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloginandlogout -->
+        <test-method signature="testCreateNewUserRedirection(java.lang.String)[pri:3, instance:testCases.AccountSignInTestCases@574b560f]" started-at="2024-10-11T07:00:54 UTC" name="testCreateNewUserRedirection" finished-at="2024-10-11T07:00:58 UTC" duration-ms="3920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUserRedirection -->
+        <test-method signature="testSignInWithFacebook(java.lang.String)[pri:4, instance:testCases.AccountSignInTestCases@574b560f]" started-at="2024-10-11T07:00:58 UTC" name="testSignInWithFacebook" finished-at="2024-10-11T07:01:03 UTC" duration-ms="4276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithFacebook -->
+        <test-method signature="testCreateNewUser(java.lang.String)[pri:5, instance:testCases.AccountSignInTestCases@574b560f]" started-at="2024-10-11T07:01:03 UTC" name="testCreateNewUser" finished-at="2024-10-11T07:01:36 UTC" duration-ms="33727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.AccountSignInTestCases@574b560f]" started-at="2024-10-11T07:01:36 UTC" name="teardown" finished-at="2024-10-11T07:01:36 UTC" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.AccountSignInTestCases -->
+      <class name="testCases.OurProductsTestCases">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.OurProductsTestCases@2a266d09]" started-at="2024-10-11T06:58:37 UTC" name="setup" finished-at="2024-10-11T06:58:39 UTC" duration-ms="1657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AdvantageAddToCart()[pri:0, instance:testCases.OurProductsTestCases@2a266d09]" started-at="2024-10-11T06:58:39 UTC" name="AdvantageAddToCart" finished-at="2024-10-11T06:58:52 UTC" duration-ms="13154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvantageAddToCart -->
+        <test-method signature="AdvantageFilteredProduct()[pri:1, instance:testCases.OurProductsTestCases@2a266d09]" started-at="2024-10-11T06:58:52 UTC" name="AdvantageFilteredProduct" finished-at="2024-10-11T06:59:03 UTC" duration-ms="11536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvantageFilteredProduct -->
+        <test-method signature="AdvantageHoverAndPrintReview()[pri:2, instance:testCases.OurProductsTestCases@2a266d09]" started-at="2024-10-11T06:59:03 UTC" name="AdvantageHoverAndPrintReview" finished-at="2024-10-11T06:59:11 UTC" duration-ms="7747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvantageHoverAndPrintReview -->
+        <test-method signature="AdvantagePlayVideoAndVerifyPlayback()[pri:3, instance:testCases.OurProductsTestCases@2a266d09]" started-at="2024-10-11T06:59:11 UTC" name="AdvantagePlayVideoAndVerifyPlayback" finished-at="2024-10-11T06:59:24 UTC" duration-ms="12557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvantagePlayVideoAndVerifyPlayback -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.OurProductsTestCases@2a266d09]" started-at="2024-10-11T06:59:24 UTC" name="tearDown" finished-at="2024-10-11T06:59:24 UTC" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.OurProductsTestCases -->
+      <class name="testCases.HomePageTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:01:36 UTC" name="setUp" finished-at="2024-10-11T07:01:37 UTC" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFirstProduct()[pri:1, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:01:37 UTC" name="testFirstProduct" finished-at="2024-10-11T07:01:46 UTC" duration-ms="9339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstProduct -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:01:46 UTC" name="captureScreenshotOnFailure" finished-at="2024-10-11T07:01:46 UTC" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFirstProduct status=SUCCESS method=HomePageTestCases.testFirstProduct()[pri:1, instance:testCases.HomePageTestCases@ba54932] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="testSecondProduct()[pri:2, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:01:46 UTC" name="testSecondProduct" finished-at="2024-10-11T07:01:55 UTC" duration-ms="9124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecondProduct -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:01:56 UTC" name="captureScreenshotOnFailure" finished-at="2024-10-11T07:01:56 UTC" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSecondProduct status=SUCCESS method=HomePageTestCases.testSecondProduct()[pri:2, instance:testCases.HomePageTestCases@ba54932] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="testThirdProduct()[pri:3, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:01:56 UTC" name="testThirdProduct" finished-at="2024-10-11T07:02:01 UTC" duration-ms="5680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThirdProduct -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:01 UTC" name="captureScreenshotOnFailure" finished-at="2024-10-11T07:02:01 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testThirdProduct status=SUCCESS method=HomePageTestCases.testThirdProduct()[pri:3, instance:testCases.HomePageTestCases@ba54932] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="testExploreTabletsPage()[pri:4, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:01 UTC" name="testExploreTabletsPage" finished-at="2024-10-11T07:02:06 UTC" duration-ms="4948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExploreTabletsPage -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:06 UTC" name="captureScreenshotOnFailure" finished-at="2024-10-11T07:02:06 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreTabletsPage status=SUCCESS method=HomePageTestCases.testExploreTabletsPage()[pri:4, instance:testCases.HomePageTestCases@ba54932] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="testExploreSpeakersPage()[pri:5, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:06 UTC" name="testExploreSpeakersPage" finished-at="2024-10-11T07:02:10 UTC" duration-ms="3970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExploreSpeakersPage -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:10 UTC" name="captureScreenshotOnFailure" finished-at="2024-10-11T07:02:10 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreSpeakersPage status=SUCCESS method=HomePageTestCases.testExploreSpeakersPage()[pri:5, instance:testCases.HomePageTestCases@ba54932] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="testExploreLaptopsPage()[pri:6, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:10 UTC" name="testExploreLaptopsPage" finished-at="2024-10-11T07:02:13 UTC" duration-ms="2965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExploreLaptopsPage -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:13 UTC" name="captureScreenshotOnFailure" finished-at="2024-10-11T07:02:13 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExploreLaptopsPage status=SUCCESS method=HomePageTestCases.testExploreLaptopsPage()[pri:6, instance:testCases.HomePageTestCases@ba54932] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="testNavbarCoordinates()[pri:7, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:13 UTC" name="testNavbarCoordinates" finished-at="2024-10-11T07:02:33 UTC" duration-ms="19617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavbarCoordinates -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:33 UTC" name="captureScreenshotOnFailure" finished-at="2024-10-11T07:02:33 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavbarCoordinates status=SUCCESS method=HomePageTestCases.testNavbarCoordinates()[pri:7, instance:testCases.HomePageTestCases@ba54932] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="testAddToCart()[pri:8, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:33 UTC" name="testAddToCart" finished-at="2024-10-11T07:02:53 UTC" duration-ms="20473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:53 UTC" name="tearDown" finished-at="2024-10-11T07:02:53 UTC" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@ba54932]" started-at="2024-10-11T07:02:53 UTC" name="captureScreenshotOnFailure" finished-at="2024-10-11T07:02:53 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddToCart status=SUCCESS method=HomePageTestCases.testAddToCart()[pri:8, instance:testCases.HomePageTestCases@ba54932] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+      </class> <!-- testCases.HomePageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
